@@ -8,10 +8,10 @@ Este un strîngător date (audio) pentru antrenarea modelului nostru de transcri
 ```
 dataset/
 ├── data/
-│   ├──  2024-04-29T14:20:44.wav
-│   └──  tg-2024-04-30T11:22:21.wav
-├──  metadata.csv
-└──  nevalidate.csv
+│   ├── 2024-04-29T14:20:44.wav
+│   └── tg-2024-04-30T11:22:21.wav
+├── metadata.csv
+└── nevalidate.csv
 
 ```
 
