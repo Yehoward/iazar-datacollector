@@ -1,3 +1,5 @@
 dataset
 .env
-push_data.py
+test/*
+dataset.tar
+dataset-bak
