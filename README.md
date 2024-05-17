@@ -2,6 +2,39 @@
 
 Este un strîngător date (audio) pentru antrenarea modelului nostru de transcrierea vocii în text.
 
+# Instalare 
+
+Clonați repozitoriul:
+
+```sh 
+git clone https://github.com/Yehoward/iazar-datacollector.git
+
+```
+
+Instalați (în mediu virtual):
+
+```sh
+pipenv install
+```
+
+Veți avea nevoie de un [telegram jeton(token)](https://core.telegram.org/bots/tutorial#obtain-your-bot-token).
+Care-l plasați în fișierul `.env`
+
+```sh
+KEY="Cheia-voastră"
+```
+Derulați botul (în mediu virtual):
+
+```sh
+pipenv run python bot.py
+```
+
+Derulați programul pentru colectare:
+
+```sh
+pipenv run python cli.py
+```
+
 # Operare
 
 
@@ -19,9 +52,11 @@ dataset/
 >
 > În fișierele `.csv` trebuie să scrieți coloanele `file_name,transcription`
 
+
 ## Bot telegram
 
 Salvează datele la calea `dataset/data/`, și descripția în fișierul `nevalidate.csv`.
+
 
 ## Linia de comandă
 
@@ -71,4 +106,5 @@ ajutorul unui script simplu `push_data.py`.[^hugging_audio_folder].
 ---
 [^hugging_audio_folder]: https://huggingface.co/docs/datasets/audio_dataset#audiofolder
 [^hugging_split]: https://huggingface.co/docs/datasets/repository_structure#split-pattern-hierarchy
+
 
