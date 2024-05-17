@@ -103,6 +103,41 @@ ajutorul unui script simplu `push_data.py`.[^hugging_audio_folder].
 
 În cazul nostru datele au fost plasate pe un repozitoriu privat.
 
+
+# Dependențe
+
+## telebot
+
+Librărie pentru programarea boților telegram
+
+https://pypi.org/project/pyTelegramBotAPI/
+
+## transformers 
+
+Librărie de la [HuggingFace](https://huggingface.co/) care oferă utilități pentru a lucra mai ușor cu modele AI.
+
+https://huggingface.co/docs/transformers/index
+
+
+## pytorch
+
+Librărie folosită pentru învățarea automată a modelelor.
+
+https://pytorch.org
+
+
+## aiohttp
+
+Pachet necesitat de transformers
+
+https://pypi.org/project/aiohttp/
+
+## datasets
+
+Librarie pentru a utiliza setul de date de la [HuggingFace](https://huggingface.co/).
+
+https://pypi.org/project/datasets/
+
 ---
 [^hugging_audio_folder]: https://huggingface.co/docs/datasets/audio_dataset#audiofolder
 [^hugging_split]: https://huggingface.co/docs/datasets/repository_structure#split-pattern-hierarchy
